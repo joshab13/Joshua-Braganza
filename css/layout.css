@@ -836,6 +836,7 @@ footer {
    font-size: 14px;
    text-align: center;
    position: relative;
+   
 }
 
 footer a, footer a:visited { color: #525252; }
@@ -846,24 +847,32 @@ footer .copyright {
     margin: 0;
     padding: 0;
  }
-footer .copyright li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
+
+ footer .copyright li {
+   
+   margin: 0;
+   padding: 0;
+   line-height: 24px;
 }
+
 .ie footer .copyright li {
    display: inline;
 }
+
+
+
+
+/* colour of the bullet point in the foot */
 footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #095153;
+   content: "\2022";
+   padding-left: 10px;
+   padding-right: 10px;
+   color: #095153;
 }
 footer .copyright  li:first-child:before {
-    display: none;
+   display: none;
 }
+
 
 /* social links */
 footer .social-links {
