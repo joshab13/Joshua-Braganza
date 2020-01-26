@@ -1,6 +1,7 @@
 <?php
 
-if (isset($_POST{'submit'])) {
+
+if (isset($_POST{'submit'])) {  //POST form has been submitted
 
 
 $name = $_POST['contactName'];
