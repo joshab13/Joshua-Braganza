@@ -1,7 +1,7 @@
 <?php
 
 
-$siteOwnersEmail = 'jb14go@brocku.ca';
+$siteOwnersEmail = 'josh.braganza13@gmail.com';
 
 
 if($_POST) {
